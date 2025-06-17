@@ -1,0 +1,197 @@
+#Inicio {
+  width: 100%;
+  height: 100vh;
+  background: #CEE4F2;
+  background-image: linear-gradient(to left top, #0072cc, #008ad3, #009eca, #00afb5, #1abc9c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+#Inicio video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#Inicio .contenido-inicio {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Inicio .texto {
+  width: 50%;
+  min-width: 320px;
+  max-width: 600px;
+  padding: 40px 40px 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.50) !important;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.65);
+  margin-left: 2vw;
+  pointer-events: auto;
+}
+#Inicio .imagen {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding-right: 0vw;
+}
+#Inicio .imagen img {
+  max-height: 70vh;
+  width: auto;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+.boton-contacto{
+    background: #050505;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: comforta;
+    color: #CEE4F2;
+    text-decoration: none;
+}
+.boton-contacto:hover{
+    color: #CEE4F2;
+    background: #011126;
+}
+.boton-tecnologias{
+    background: #1abc9c;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: comforta;
+    color: #CEE4F2;
+    text-decoration: none;
+}
+.boton-tecnologias:hover{
+    color: #CEE4F2;
+    background: #03236A;
+}
+@media (max-width: 900px) {
+  #Inicio {
+    height: 100vh;
+    min-height: 520px;
+    padding-top: 110px; /* Más espacio para menú y logo superior */
+    box-sizing: border-box;
+  }
+  #Inicio .contenido-inicio {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #Inicio .texto {
+    width: 95%;
+    max-width: 98vw;
+    padding: 18px 8px;
+    margin: 0 auto;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0,0,0,0.95) 80%, rgba(0,0,0,0.85) 100%);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.45);
+    z-index: 3;
+  }
+  #Inicio .imagen {
+    display: none;
+  }
+  #Inicio .img-bg-mobile {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    max-width: 400px;
+    max-height: 40vh;
+    opacity: 0.7;
+    z-index: 2;
+    pointer-events: none;
+    object-fit: contain;
+  }
+}
+
+/* Imagen de fondo para móvil (por defecto oculta en escritorio) */
+#Inicio .img-bg-mobile {
+  display: none;
+}
+@media (max-width: 900px) {
+  #Inicio .img-bg-mobile {
+    display: block;
+  }
+  .celular-movil-contenedor{
+    display: none; /* Oculta el contenedor del celular en móvil */
+  }
+  .boton-tecnologias{
+    background: #1abc9c;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: comforta;
+    color: #CEE4F2;
+    text-decoration: none;
+    margin-bottom: 40px!important;
+  }
+  .boton-tecnologias:hover{
+    color: #CEE4F2;
+    background: #03236A;
+  }
+}
+
+
+@keyframes popIn {
+  0% { transform: scale(0.7); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.celular-movil-contenedor {
+  position: relative;
+  width: 700px; /* igual al ancho de la imagen del celular */
+  margin: 0 auto;
+}
+.celular-movil {
+  display: block;
+  width: 400px;
+  height: auto;
+}
+.pantalla-scroll {
+  position: absolute;
+  top: 90px;    /* ajustar según la pantalla del celular en la imagen */
+  left: 230px;   /* ajustar según la pantalla del celular en la imagen */
+  width: 239px; /* ajustar según la pantalla del celular en la imagen */
+  height: 515px;/* ajustar según la pantalla del celular en la imagen */
+  overflow-y: auto;
+  border-radius: 32px; /* opcional, para simular bordes redondeados */
+  box-shadow: 0 0 8px rgba(0,0,0,0.15); /* opcional, para realismo */
+  background: #fff; /* o transparente si la pantalla es clara */
+  scrollbar-width: none; /* Oculta barra en Firefox y navegadores compatibles */
+}
+.pantalla-scroll::-webkit-scrollbar {
+  display: none; /* Oculta barra en Chrome, Edge, Safari */
+}
+.pantalla-scroll img {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
