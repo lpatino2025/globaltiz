@@ -1,0 +1,74 @@
+#contactanos {
+    width: 100%;
+    height: 55vh; /* Antes 100vh, ahora más bajo */
+    min-height: 320px;
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+#contactanos::after {
+    content: '';
+    background: #011126;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: rotate(10deg);
+    z-index: -1;
+}
+#contactanos h3 {
+    font-size: 32px !important; /* Antes 50px */
+    font-family: archivoBlack !important;
+    margin-bottom: 10px;
+}
+#contactanos div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px !important;
+    padding: 0 10px;
+}
+.info-contacto {
+    align-items: flex-end !important;
+    padding: 10px;
+    color: #CEE4F2;
+    font-size: 18px;
+    text-align: end;
+    margin-right: 30px;
+}
+.telefonos a {
+    font-size: 15px;
+    padding: 2px 0;
+}
+#contactanos img {
+    max-width: 120px;
+    height: auto;
+    margin: 8px 0;
+}
+@media (max-width: 900px) {
+    #contactanos {
+        height: 38vh;
+        min-height: 220px;
+        max-height: 400px;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+        font-size: 12px !important;
+    }
+    #contactanos h3 {
+        font-size: 18px !important;
+    }
+    #contactanos div, .info-contacto {
+        font-size: 11px !important;
+        margin-right: 0 !important;
+        padding: 0 4px;
+    }
+    #contactanos img {
+        max-width: 70px;
+        margin: 4px 0;
+    }
+}

@@ -1,0 +1,210 @@
+#que-hacemos{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.titulo{
+    width: 30%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.titulo > h3{
+    font-family: archivoBlack !important;
+    display: flex;
+    text-align: end;
+}
+.titulo > p{
+    font-size: 15px !important;
+    text-align: end;
+}
+.categorias{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+.fila-categoria-1{
+    width: 30%;
+    align-self: center;
+}
+.fila-categoria-2{
+    width: 30%;
+    align-self: center;
+}
+.fila-categoria-3{
+    width: 30%;
+    align-self: center;
+}
+.item-categoria{
+    width: 95%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 20px; 
+    padding: 10px;
+    background: white;
+    box-shadow:  20px 20px 60px #bebebe;
+    position: relative;
+    overflow: hidden;
+}
+.item-categoria::after{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: -125px;
+    right: -125px;
+    border-radius: 100%;
+    background: var(--gris);
+    opacity: 0.1;
+}
+.item-categoria i{
+    font-size: 50px !important;
+    margin-bottom: 10px;
+}
+.item-categoria p{
+    font-size: 15px !important;
+    color: var(--gris);
+}
+.item-categoria:hover{
+    background: var(--verde);
+    color: white !important;
+}
+.item-categoria:hover>p{
+    color: white !important;
+}
+
+
+
+
+.web-movil{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px !important;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#desarrollo-web-movil{
+    padding-top: 70px !important;
+    background: url('../img/geometric-g9bf38f25b_1920.jpg');
+    background-size: cover;
+	background-repeat:no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+#desarrollo-web-movil > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#desarrollo-web-movil > div > p{
+    color: white;
+    font-family: archivoBlack !important;
+    margin-bottom: 50px !important;
+    text-align: center;
+}
+.celular-movil{
+    position: absolute;
+    height: 80%;
+}
+.item{
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    font-family: comforta !important;
+    border: 3px solid #17E0FF;
+    color: #17E0FF;
+    background: rgba(1, 17, 38,0.5);
+}
+.item i{
+    position: absolute;
+    top: -25px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-family: 15px !important;
+    background: #1abc9c;
+    color: var(--blanco);
+}
+.izquierda{
+    right: -25px;
+}
+.derecha{
+    left: -25px;
+}
+.item:hover{
+    transform: scale(1.05);
+}
+.item-3{
+    margin-right: -50px;
+}
+.item-4{
+    margin-left: -50px;
+}
+
+
+#servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 100%;
+}
+#servicios > div{
+    height: 100%;
+    padding: 70px;
+}
+#servicios h3{
+    font-size: 20px !important;
+    font-family: archivoBlack !important;
+    padding-bottom: 20px;    
+}
+#servicios ul li{
+    text-decoration: none;
+    font-size: 15px !important;
+    /* list-style: none; */
+}
+.servicios-2{
+    background: var(--gris); 
+    color: var(--blanco);
+}
+
+#otros-lenguajes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    background: var(--blanco);
+}
+#otros-lenguajes > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 1%;
+}
+#otros-lenguajes > div > img{
+    width: 60% !important;
+    padding: 20px;
+}
