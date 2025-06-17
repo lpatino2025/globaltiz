@@ -6,6 +6,9 @@ const urlInstagram = 'https://www.instagram.com/globaltiz/';
 const paginas = `
 <ul class="nav justify-content-end">
     <li class="nav-item" >
+        <a class="nav-link txt-que-hacemos" href="index.html">Inicio</a> 
+    </li>
+    <li class="nav-item" >
         <a class="nav-link txt-que-hacemos" href="#que-hacemos">¿Que hacemos?</a> 
     </li>
     <li class="nav-item nav-item-dropdown">
@@ -14,6 +17,7 @@ const paginas = `
             <li><a href="iot-services.html">IOT services</a></li>
             <li><a href="analitica-datos.html">Analítica de Datos</a></li>
             <li><a href="cloud-computing.html">Cloud Computing</a></li>
+            <li><a href="desarrollo-web-movil.html">Desarrollo Web y Móvil</a></li>
         </ul>
     </li>
     <li class="nav-item">

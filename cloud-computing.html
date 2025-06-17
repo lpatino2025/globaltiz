@@ -112,45 +112,152 @@
         <div class="imagen">
             <!-- <img src="" alt="Imagen Globaltiz" id="imagen-globaltiz">-->
             <div class="texto-imagen">
-                <p data-aos="fade-up" id="texto-imagen-globaltiz">Globaltiz</p>
-                <p data-aos="fade-up" id="texto-imagen-globaltiz-2">Transformación digital</p>
+                <p data-aos="fade-up" id="texto-imagen-globaltiz"></p>
+                <p data-aos="fade-up" id="texto-imagen-globaltiz-2"></p>
         </div>
     </div>
     </div>       
     </section>
 
-  <section id="contactanos" class="contenido">
-        <div>
-            <h3 class="txt-contactanos" data-aos="zoom-out-up">Contáctanos</h3>
-            <a data-aos="zoom-out-up" href="https://globaltiz.com/" target="_blank"><i class="bi bi-globe"></i>
-                www.globaltiz.com</a>
-            <img src="img/logo_edited.png" alt="" data-aos="zoom-in-right" width="18%" height="18%">
+
+    <footer id="contactanos" class="footer-contacto">
+      <div class="footer-container">
+        <!-- Columna 1: Logo -->
+        <div class="footer-col footer-logo">
+          <img src="img/logo_edited.png" alt="Globaltiz" class="footer-logo-img">
         </div>
-        <div class="info-contacto">
-            <div class="telefonos">
-                <a data-aos="zoom-out-up"
-                    href="https://api.whatsapp.com/send/?phone=573238289060&text&type=phone_number&app_absent=0"
-                    target="_blank"><i class="bi bi-whatsapp"></i> +57 323 828 9060</a>
-                <a data-aos="zoom-out-up"
-                    href="https://api.whatsapp.com/send/?phone=17869330019&text&type=phone_number&app_absent=0"
-                    target="_blank"><i class="bi bi-telephone"></i> +1 786 933 0019</a>
-                <a data-aos="zoom-out-up" href="mailto:customer@globaltiz.com" target="_blank"><i
-                        class="bi bi-envelope"></i> customer@globaltiz.com</a>
-            </div>
-            <br>
-            <div>
-                Bogotá, Colombia
-                <br>
-                Cra. 11B #99-25
-            </div>
-            <br>
-            <div>
-                Miami FL, U.S.A
-                <br>
-                78 SW 7th St, Miami, FL 33130
-            </div>
+        <!-- Columna 2: Servicios -->
+        <div class="footer-col footer-servicios">
+          <h4 style="margin-bottom:12px;letter-spacing:1px;">SERVICIOS</h4>
+          <a href="desarrollo-web-movil.html">Desarrollo Web y Móvil</a>
+          <a href="analitica-datos.html">Analítica de Datos</a>
+          <a href="cloud-computing.html">Cloud Computing</a>
+          <a href="iot-services.html">IoT Services</a>
         </div>
-    </section>
+        <!-- Columna 3: Direcciones -->
+        <div class="footer-col footer-direcciones">
+          <h4 style="margin-bottom:12px;letter-spacing:1px;">DIRECCIÓN</h4>
+          <div>
+            <strong>Miami, USA</strong><br>
+            78 SW 7th St, Miami, FL 33130
+          </div>
+          <div style="margin-top: 18px;">
+            <strong>Bogotá, Colombia</strong><br>
+            Cra. 11B #99-25
+          </div>
+        </div>
+        <!-- Columna 4: Contacto -->
+        <div class="footer-col footer-contacto-info">
+          <h4 style="margin-bottom:12px;letter-spacing:1px;">CONTACTO</h4>
+          <div>
+            <strong>Email:</strong> <a href="mailto:customer@globaltiz.com">customer@globaltiz.com</a>
+          </div>
+          <div>
+            <strong>Teléfono:</strong> <a href="https://api.whatsapp.com/send/?phone=17869330019&text&type=phone_number&app_absent=0" target="_blank">+1 786 933 0019</a>
+          </div>
+          <div>
+            <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send/?phone=573238289060&text&type=phone_number&app_absent=0" target="_blank">+57 323 828 9060</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <style>
+    .footer-contacto {
+      width: 100vw;
+      background: #011126;
+      color: #fff;
+      padding: 36px 0 24px 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      box-sizing: border-box;
+    }
+    .footer-container {
+      width: 100vw;
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 32px;
+      padding: 0 32px;
+      box-sizing: border-box;
+    }
+    .footer-col {
+      flex: 1 1 0;
+      min-width: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+    }
+    .footer-logo-img {
+      max-width: 420px!important; /* Aumenta aún más el tamaño del logo */
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px;
+    }
+    .footer-servicios a {
+      color: #1abc9c;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .footer-servicios a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .footer-direcciones div {
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+    .footer-contacto-info div {
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+    .footer-contacto-info a {
+      color: #1abc9c;
+      text-decoration: none;
+    }
+    .footer-contacto-info a:hover {
+      text-decoration: underline;
+    }
+    .footer-col h4 {
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+      font-size: 1.18rem;
+      font-weight: bold;
+      line-height: 1.3;
+      min-height: 1.8em;
+    }
+    @media (max-width: 1100px) {
+      .footer-container {
+        flex-wrap: wrap;
+        gap: 18px;
+      }
+      .footer-col {
+        min-width: 140px;
+      }
+    }
+    @media (max-width: 900px) {
+      .footer-container {
+        flex-direction: column !important;
+        align-items: center;
+        gap: 24px;
+        padding: 0 12px;
+        width: 100vw;
+      }
+      .footer-col {
+        align-items: center;
+        text-align: center;
+      }
+      .footer-logo-img {
+        margin-bottom: 18px;
+      }
+    }
+    </style>
 
     <!-- scripts -->
     <script src="js/main.js"></script>
