@@ -12,12 +12,12 @@ const paginas = `
         <a class="nav-link txt-que-hacemos" href="#que-hacemos">¿Que hacemos?</a> 
     </li>
     <li class="nav-item nav-item-dropdown">
-        <a class="nav-link txt-servicios" href="#servicios">Servicios</a>
+        <a class="nav-link txt-servicios" href="#desarrollo-web-movil">Servicios</a>
         <ul class="submenu">
-            <li><a href="iot-services.html">IOT services</a></li>
-            <li><a href="analitica-datos.html">Analítica de Datos</a></li>
-            <li><a href="cloud-computing.html">Cloud Computing</a></li>
-            <li><a href="desarrollo-web-movil.html">Desarrollo Web y Móvil</a></li>
+            <li><a href="#titulo-iot-services">IOT services</a></li>
+            <li><a href="#titulo-analitica-datos">Analítica de Datos</a></li>
+            <li><a href="#titulo-cloud-computing">Cloud Computing</a></li>
+            <li><a href="#desarrollo-web-movil">Desarrollo Web y Móvil</a></li>
         </ul>
     </li>
     <li class="nav-item">
