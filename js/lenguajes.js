@@ -19,7 +19,7 @@ const traduccion = [
     ['#titulo-web-movil', 'Web and Mobile Development'],
     ['.txt-servicios', 'Services'],
     ['.txt-desarrollo', 'Web and Mobile Development'],
-    ['.txt-desarrollo-web-movil-p', 'We specialize in creating digital solutions that not only stand out for their design and functionality, but also boost the growth and competitiveness of your company.Web & Mobile Development.'],
+    ['.txt-desarrollo-web-movil-p', ''],
     ['.boton-tecnologias', 'Technologies'],
     ['.txt-titulo-iot-services', 'IOT services'],
     ['.txt-titulo-analitica-datos', 'Data analytics'],
