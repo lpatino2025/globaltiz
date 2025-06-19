@@ -17,6 +17,60 @@ const traduccion = [
     ['.item-computacion-nube', 'Cloud Computing'],
     ['.item-que-hacemos-data-analytic', 'Data analytics'],
     ['#titulo-web-movil', 'Web and Mobile Development'],
+    ['.txt-servicios', 'Services'],
+    ['.txt-desarrollo', 'Web and Mobile Development'],
+    ['.txt-desarrollo-web-movil-p', 'We specialize in creating digital solutions that not only stand out for their design and functionality, but also boost the growth and competitiveness of your company.Web & Mobile Development.'],
+    ['.boton-tecnologias', 'Technologies'],
+    ['.txt-titulo-iot-services', 'IOT services'],
+    ['.txt-titulo-analitica-datos', 'Data analytics'],
+    ['.txt-titulo-cloud-computing', 'Cloud computing'],
+    ['.txt-desarrollo-web-movil', 'Web and mobile development'],
+    ['.txt-titulo-iot-services2', 'IoT Service'],
+    ['.lista-iot-services', `<li>Innovation in AI</li>
+    <li>Change by text</li>
+    <li>Chatbots and Virtual Assistants</li>
+    <li>AI Model Development</li>
+    <li>Optimization of Existing Models</li>
+    <li>Model Updating</li>
+    <li>Chatbots and Virtual Assistants</li>`],
+    ['.txt-titulo-analitica-datos', 'Data analytics'],
+    ['.lista-analitica-datos', `<li>Big data</li>
+    <li>Machine learning</li>
+    <li>Data Quality</li>
+    <li>Real-time data movement</li>
+    <li>Data Science Projects</li>
+    <li>BI Services</li>
+    <li>Data Governance</li>
+    <li>Monitoring and Optimization</li>`],
+    ['.txt-titulo-computacion-nube', 'Cloud computing'],
+    ['.lista-computacion-nube', `<li>Amazon Web Services</li>
+    <li>Oracle Cloud Infrastructure</li>
+    <li>Cloud migration</li>
+    <li>Cloud architecture design</li>
+    <li>Time to market</li>
+    <li>Optimization of operating costs</li>
+    <li>Security</li>
+    <li>Low latency platforms</li>`],
+    // Pie de página: Servicios
+    ['.titulo-contacto-pie-servicios', 'SERVICES'],
+    ['.footer-servicios a[href="#desarrollo-web-movil"]', 'Web & Mobile Development'],
+    ['.footer-servicios a[href="#titulo-analitica-datos"]', 'Data Analytics'],
+    ['.footer-servicios a[href="#titulo-cloud-computing"]', 'Cloud Computing'],
+    ['.footer-servicios a[href="#titulo-iot-services"]', 'Internet of Things'],
+    // Pie de página: Dirección
+    ['.footer-direcciones h4', 'ADDRESS'],
+    ['.footer-direcciones div:nth-child(2) strong', 'Miami, USA'],
+    ['.footer-direcciones div:nth-child(2)', '78 SW 7th St, Miami, FL 33130'],
+    ['.footer-direcciones div:nth-child(3) strong', 'Bogotá, Colombia'],
+    ['.footer-direcciones div:nth-child(3)', 'Cra. 11B #99-25'],
+    // Pie de página: Contacto
+    ['.footer-contacto-info h4', 'CONTACT'],
+    ['.footer-contacto-info div:nth-child(2) strong', 'Email:'],
+    ['.footer-contacto-info div:nth-child(2) a', 'customer@globaltiz.com'],
+    ['.footer-contacto-info div:nth-child(3) strong', 'Phone:'],
+    ['.footer-contacto-info div:nth-child(3) a', '+1 786 210 0045'],
+    ['.footer-contacto-info div:nth-child(4) strong', 'WhatsApp:'],
+    ['.footer-contacto-info div:nth-child(4) a', '+57 323 828 9060'],
 ];
 
 const webMovil = [
